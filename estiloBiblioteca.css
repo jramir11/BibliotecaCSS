@@ -1,0 +1,105 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 970px;
+    margin: 0 auto;
+    border-color: blue;
+  }
+
+  
+  .nav {
+    background-color: darkgrey;
+    margin: 5px;
+    border-radius: solid 2px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto'
+}
+ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style-type: none;
+
+}
+a {
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h1 {
+    font-family: roboto;
+}
+.btn {
+    margin: 10px;
+}
+
+
+
+.Botones {
+    padding-left: 500px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.btn-busqueda {
+    /*border-radius: 15%;*/
+    background-color: white;
+    color: rgb(22, 194, 88);
+    border: 2px solid #4CAF50;
+    border-radius: 100px;
+    box-sizing: border-box;
+  }
+.btn-mas {
+    border-radius: 50%;
+    background-color: rgb(38, 138, 17);
+    color: white;
+  }
+.btn-creacuenta {
+    box-shadow: 6px 6px  rgb(8, 8, 8) ;
+    background-color: rgb(53, 146, 199);
+    color: white;
+  }
+
+
+
+
+
+  .row {
+    width: 960px;
+    height: 100px;
+    background-color: rgba(180, 176, 176, 0.51);
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.col, .col-2, .col-3 {
+    /*height: 300px;
+    width: 200px;*/
+    background-color: rgb(111, 180, 145);
+    margin: 10px;
+    padding: 10px;
+    /*vertical-align: top;
+    display: flex;
+    box-sizing: border-box;
+    float: left;*/
+}
+.col {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
